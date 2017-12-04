@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='tychodemo.swtbot.tests' version='1.0.0.201712042033'>
+    <update id='tychodemo.swtbot.tests' range='[0.0.0,1.0.0.201712042033)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='tychodemo.swtbot.test'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Omnes'/>
+      <property name='maven-groupId' value='tychodemo'/>
+      <property name='maven-artifactId' value='tychodemo.swtbot.tests'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='tychodemo.swtbot.tests' version='1.0.0.201712042033'/>
+      <provided namespace='osgi.bundle' name='tychodemo.swtbot.tests' version='1.0.0.201712042033'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='org.eclipse.swtbot.go' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='tychodemo.swtbot.tests' version='1.0.0.201712042033'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: tychodemo.swtbot.tests;singleton:=true&#xA;Bundle-Version: 1.0.0.201712042033&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

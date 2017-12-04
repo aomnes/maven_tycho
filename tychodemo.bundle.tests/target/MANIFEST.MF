@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: tychodemo.bundle.tests
+Bundle-Name: Tests
+Bundle-Version: 1.0.0.201712042033
+Require-Bundle: org.junit
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Fragment-Host: tychodemo.bundle
+
